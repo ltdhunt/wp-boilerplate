@@ -1,0 +1,33 @@
+{
+  "name": "fleekdash-v2",
+  "version": "1.0.3",
+  "description": "WordPress Plugin Boilerplate utilizing modern web technologies and tools such as React, TypeScript, SASS, Tailwind CSS, Shadcn UI, Vite, Storybook, and more.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "fleekdash-v2": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prappo/fleekdash-v2.git"
+  },
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "boilerplate"
+  ],
+  "author": "prappo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prappo/fleekdash-v2/issues"
+  },
+  "homepage": "https://github.com/prappo/fleekdash-v2#readme",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "extract-zip": "^2.0.1",
+    "inquirer": "^9.2.15"
+  }
+}

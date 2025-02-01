@@ -1,0 +1,19 @@
+{
+  "name": "prappo/fleekdash-v2",
+  "description": "Wordpress Plugin boilerplate",
+  "autoload": {
+    "psr-4": {
+      "FleekDashV2\\": "includes/",
+      "FleekDashV2\\Database\\": "database/",
+      "FleekDashV2\\Libs\\": "libs/"
+    },
+    "files": [
+      "libs/assets.php",
+      "libs/db.php",
+      "includes/functions.php"
+    ]
+  },
+  "require": {
+    "prappo/wp-eloquent": "^3.0"
+  }
+}
